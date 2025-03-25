@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "MAC Adresi Dönüştürücü",
+  "version": "1.4",
+  "description": "MAC adreslerini farklı formatlarda dönüştürür.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "mac_convertor",
+    "default_popup": "mac.html"
+  },
+  "permissions": [
+    "clipboardWrite"
+  ]
+}
